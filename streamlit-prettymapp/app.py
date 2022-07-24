@@ -51,7 +51,7 @@ address = col1.text_input(
 radius = col2.slider(
     "Radius",
     100,
-    150,
+    500,
     key="radius",
 )
 
@@ -183,7 +183,7 @@ with st.spinner("Creating map... (may take up to a minute)"):
     )
 
    # result_container.write(html, unsafe_allow_html=True)
-    st.pyplot(fig, pad_inches=0, bbox_inches="tight", transparent=True, dpi=800)
+    st.pyplot(fig, pad_inches=0, bbox_inches="tight", transparent=True, dpi=600)
 
 
   # svg_string = plt_to_svg(fig)
