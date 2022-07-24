@@ -51,7 +51,7 @@ address = col1.text_input(
 radius = col2.slider(
     "Radius",
     100,
-    1500,
+    5000,
     key="radius",
 )
 
