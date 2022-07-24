@@ -182,7 +182,7 @@ with st.spinner("Creating map... (may take up to a minute)"):
         bg_color=bg_color,
     )
 
-    result_container.write(html, unsafe_allow_html=True)
+   # result_container.write(html, unsafe_allow_html=True)
     st.pyplot(fig, pad_inches=0, bbox_inches="tight", transparent=True, dpi=800)
 
 svg_string = plt_to_svg(fig)
