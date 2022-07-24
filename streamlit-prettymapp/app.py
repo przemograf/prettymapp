@@ -189,15 +189,15 @@ with st.spinner("Creating map... (may take up to a minute)"):
  # svg_string = plt_to_svg(fig)
  # html = svg_to_html(svg_string)
   # st.write("")
-  fname = slugify(address)
-  img_format = svg
+#  fname = slugify(address)
+#  img_format = svg
   # if img_format == "svg":
   #     data = svg_string
   # elif img_format == "png":
   #     import io
   #     data = io.BytesIO()
   #     fig.savefig(data, pad_inches=0, bbox_inches="tight", transparent=True)
-  st.download_button(label="Download image", data=data, file_name=f"{fname}.{img_format}")
+#  st.download_button(label="Download image", data=data, file_name=f"{fname}.{img_format}")
 
 st.markdown("---")
 st.write(
