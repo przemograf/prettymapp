@@ -187,7 +187,7 @@ with st.spinner("Creating map... (may take up to a minute)"):
 
 
  # svg_string = plt_to_svg(fig)
-  html = svg_to_html(svg_string)
+ # html = svg_to_html(svg_string)
   # st.write("")
   fname = slugify(address)
   img_format = svg
